@@ -15,7 +15,6 @@ body {
     background-color: #FF0000;
     background-size: cover;
 }
-
 .content {
     position: absolute;
     top: 50%;
@@ -24,8 +23,26 @@ body {
     text-align: center;
 }
 
-.content h2 {
+.yellow h2 {
     color: #FFFF00;
+    font-size: 50px;
+}
+
+.bgGreen {
+    background-color: green;
+}
+
+.bgYellow {
+    background-color: yellow;
+}
+
+.green h2 {
+    color: green;
+    font-size: 50px;
+}
+
+.content2 h2 {
+    color:red;
     font-size: 50px;
 }
 
@@ -33,5 +50,28 @@ body {
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 1;
+    z-index: 1;   
 }
+
+ul.nav li {
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    padding-top: 50px;
+    margin-right: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    vertical-align: middle;
+}
+
+
+
+
+
